@@ -9,6 +9,7 @@ module.exports = {
     '@snowpack/plugin-typescript',
     '@prefresh/snowpack',
   ],
+  scripts: { 'build:css': 'postcss' },
   install: [
     /* ... */
   ],
