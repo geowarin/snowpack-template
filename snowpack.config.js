@@ -19,7 +19,7 @@ module.exports = {
     installTypes: true,
   },
   devOptions: {
-    /* ... */
+    open: "none"
   },
   buildOptions: {
     /* ... */
@@ -28,6 +28,7 @@ module.exports = {
     /* ... */
   },
   alias: {
-    /* ... */
+    "react": "preact/compat",
+    "react-dom": "preact/compat"
   },
 };
